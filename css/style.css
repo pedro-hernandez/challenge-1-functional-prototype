@@ -3,3 +3,26 @@ html, body {
     padding: 0;
     border: 0;
 }
+
+.container {
+    display: grid;
+    grid-template-areas: "first"
+                         "middle"
+                         "end";
+    grid-template-rows: 100px 100px 200px;
+}
+
+.first {
+    grid-area: first;
+    background-color: blue;
+}
+
+.middle {
+    grid-area: middle;
+    background-color: red;
+}
+
+.end {
+    grid-area: end;
+    background-color: green;
+}
