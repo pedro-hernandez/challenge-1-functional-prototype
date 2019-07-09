@@ -34,9 +34,25 @@ html, body {
 .middle {
     grid-area: middle;
     background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+.middle-inner {
+    width: 20%;
+    margin: 10px;
+    background-color: white;
 }
 
 .end {
     grid-area: end;
-    background-color: green;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+}
+
+.end-inner {
+    width: 30%;
+    margin: 10px;
+    background-color: white;
 }
